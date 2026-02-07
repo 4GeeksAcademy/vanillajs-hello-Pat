@@ -1,5 +1,50 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+background: green;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+.card {
+background: white;
+width: 400px;
+height: 600px;
+border-radius: 10px;
+padding: 15px;
+position: relative;
+font-size: 100px;
+}
+
+.top-suit {
+position: absolute;
+top:20px;
+left: 30px;
+}
+
+.number {
+text-align: center;
+margin-top: 250px;
+}
+
+.bottom-suit {
+position: absolute;
+bottom: 20px;
+right: 30px;
+transform: rotate(180deg);
+}
+
+button{
+margin-top: 50px;
+padding:  10px 20px;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+background-color: #aab7bd;
+color: rgb(13, 8, 3);
+cursor: pointer;
+
 }
